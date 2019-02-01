@@ -1,4 +1,7 @@
-"""Created by Byebrid."""
+"""Created by Byebrid. The hamilton() function will take in a list of permutations of an alphabet (see code near bottom) and
+return a superpermutation with a length as defined by the lower bound (see bounds()), if it exists. Because of the massive
+nature of this problem, this function is really too slow to do any alphabet over 3 letters long and could certainly be refined and improved.
+"""
 from itertools import permutations, combinations
 from math import factorial
 
